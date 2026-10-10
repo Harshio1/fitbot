@@ -1,0 +1,676 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "hey there",
+        "good morning",
+        "good evening",
+        "good afternoon",
+        "hello bot",
+        "hi coach",
+        "namaste",
+        "what's up"
+      ],
+      "response": "Hello! I'm your fitness assistant. Ask me about workouts, meals, diet or recovery."
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "see you",
+        "talk to you later",
+        "i am leaving",
+        "good night",
+        "catch you later",
+        "bye bye",
+        "that is all for today"
+      ],
+      "response": "Goodbye! Stay consistent and keep moving. See you next time."
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thank you so much",
+        "thanks a lot",
+        "that was helpful",
+        "great answer",
+        "awesome thanks",
+        "much appreciated",
+        "nice thank you",
+        "that helps"
+      ],
+      "response": "You're welcome! Ask me anything else about fitness."
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "what can you do",
+        "help me",
+        "what can i ask you",
+        "how do you work",
+        "tell me about yourself",
+        "what do you know",
+        "what topics do you cover",
+        "are you a bot"
+      ],
+      "response": "I'm a voice-enabled fitness assistant. Ask me about exercises for each body part, home workouts, diet and meals, protein, hydration, supplements, sleep and recovery. Tap the mic and speak, or type your question."
+    },
+    {
+      "tag": "weight_loss_diet",
+      "patterns": [
+        "how to lose weight",
+        "diet for weight loss",
+        "what should i eat to lose weight",
+        "how can i lose fat",
+        "fat loss diet plan",
+        "i want to lose weight fast",
+        "weight loss meal plan",
+        "best diet to burn fat",
+        "how do i get slim",
+        "foods to eat for weight loss",
+        "how to reduce body weight",
+        "tips to lose weight"
+      ],
+      "response": "To lose fat, eat in a modest calorie deficit (about 300-500 kcal below maintenance). Build meals around lean protein (eggs, chicken, fish, dal, paneer, tofu), plenty of vegetables, and fibre-rich carbs like oats, brown rice or millets. Limit sugary drinks and fried snacks. A safe pace is about 0.5 kg per week."
+    },
+    {
+      "tag": "muscle_gain_diet",
+      "patterns": [
+        "how to gain muscle",
+        "diet for muscle gain",
+        "what should i eat to build muscle",
+        "bulking diet plan",
+        "how to gain weight",
+        "how can i bulk up",
+        "muscle building meal plan",
+        "foods to build muscle",
+        "how do i get bigger",
+        "how to put on muscle mass",
+        "i am skinny how do i gain weight",
+        "tips to build muscle",
+        "i want to gain weight what should i eat",
+        "how to gain weight fast",
+        "what should i eat to gain weight",
+        "foods for weight gain healthy"
+      ],
+      "response": "To build muscle, eat in a small calorie surplus (about 250-500 kcal above maintenance) with enough protein (1.6-2.2 g per kg body weight per day). Include carbs like rice, roti, oats and potatoes for training energy, plus healthy fats like nuts and eggs. Combine this with progressive strength training and good sleep."
+    },
+    {
+      "tag": "protein_intake",
+      "patterns": [
+        "how much protein do i need",
+        "daily protein requirement",
+        "how many grams of protein per day",
+        "protein intake per day",
+        "how much protein should i eat",
+        "what is the right amount of protein",
+        "protein needs for muscle",
+        "how many grams of protein should i eat daily",
+        "protein per kg body weight",
+        "is too much protein bad"
+      ],
+      "response": "Most active people do well with 1.4-2.0 g of protein per kg of body weight per day, and up to 2.2 g/kg when building muscle. For a 70 kg person that is roughly 100-140 g per day. Spread it over 3-4 meals. People with kidney disease should check with a doctor first."
+    },
+    {
+      "tag": "breakfast",
+      "patterns": [
+        "healthy breakfast ideas",
+        "what should i eat for breakfast",
+        "breakfast for weight loss",
+        "high protein breakfast",
+        "quick breakfast before gym",
+        "good morning meal ideas",
+        "what to eat in the morning",
+        "best breakfast for fitness",
+        "easy healthy breakfast",
+        "breakfast options for muscle gain"
+      ],
+      "response": "Good breakfast ideas: an egg or vegetable omelette with whole-grain toast, oats with fruit and nuts, curd or Greek yoghurt with fruit, besan or moong dal chilla, idli with sambar, or a paneer/tofu scramble. Aim for protein plus fibre to stay full."
+    },
+    {
+      "tag": "lunch_dinner",
+      "patterns": [
+        "healthy lunch ideas",
+        "what should i eat for lunch",
+        "healthy dinner ideas",
+        "what to eat for dinner",
+        "dinner for weight loss",
+        "balanced meal plate",
+        "what is a healthy meal",
+        "lunch ideas for fitness",
+        "light dinner options",
+        "what should i have for dinner after gym",
+        "healthy meal ideas"
+      ],
+      "response": "A balanced lunch or dinner: half the plate vegetables or salad, a quarter protein (grilled chicken, fish, eggs, dal, paneer, tofu, chickpeas) and a quarter whole-grain carbs (brown rice, roti, quinoa, millets). Example: 2 rotis, dal, mixed vegetable sabzi, curd and a salad."
+    },
+    {
+      "tag": "snacks",
+      "patterns": [
+        "healthy snack ideas",
+        "what can i snack on",
+        "good snacks for weight loss",
+        "high protein snacks",
+        "evening snack options",
+        "what to eat when i am hungry between meals",
+        "healthy snacks for gym",
+        "low calorie snacks",
+        "snack ideas for muscle gain",
+        "what to eat instead of junk food"
+      ],
+      "response": "Healthy snacks: roasted chana, a handful of nuts, fruit with peanut butter, boiled eggs, sprouts salad, buttermilk, curd, or a protein shake. Choose snacks with protein or fibre so you stay full longer."
+    },
+    {
+      "tag": "pre_workout_meal",
+      "patterns": [
+        "what to eat before workout",
+        "pre workout meal",
+        "food before gym",
+        "what should i eat before exercise",
+        "best snack before training",
+        "what to eat before running",
+        "should i eat before working out",
+        "meal before lifting weights",
+        "pre workout food ideas",
+        "what can i eat 30 minutes before the gym"
+      ],
+      "response": "Eat a carb-rich meal with some protein 1-3 hours before training, for example oats, or rice with dal. If you have only 30 minutes, a banana or a few dates is enough. Avoid heavy, very fatty or very spicy food right before exercise."
+    },
+    {
+      "tag": "post_workout_meal",
+      "patterns": [
+        "what to eat after workout",
+        "post workout meal",
+        "food after gym",
+        "what should i eat after exercise",
+        "best meal after training",
+        "recovery meal after workout",
+        "what to eat after running",
+        "should i eat after working out",
+        "post workout food ideas",
+        "protein after workout"
+      ],
+      "response": "Within a couple of hours after training, eat protein plus carbs, such as eggs with toast, chicken or paneer with rice, curd with fruit, or a protein shake with a banana. Around 20-40 g of protein supports recovery."
+    },
+    {
+      "tag": "hydration",
+      "patterns": [
+        "how much water should i drink",
+        "daily water intake",
+        "how many liters of water per day",
+        "importance of drinking water",
+        "should i drink water during workout",
+        "hydration during exercise",
+        "how to stay hydrated",
+        "water intake for gym",
+        "what to drink while exercising",
+        "am i drinking enough water"
+      ],
+      "response": "A general guide is about 2-3 litres of water per day, more if you sweat a lot or the weather is hot. Drink steadily through the day and sip during workouts. For long or intense sessions, add electrolytes such as ORS or coconut water. Pale yellow urine is a good sign."
+    },
+    {
+      "tag": "beginner_workout",
+      "patterns": [
+        "workout plan for beginners",
+        "i am a beginner where do i start",
+        "beginner gym routine",
+        "how to start working out",
+        "starter exercise plan",
+        "simple workout routine for beginners",
+        "first time at the gym",
+        "beginner exercises",
+        "how should a beginner train",
+        "easy workout plan to start"
+      ],
+      "response": "Beginner plan (3 days a week, full body): squats, push-ups (or knee push-ups), dumbbell rows, shoulder press and plank. Do 2-3 sets of 8-12 reps each with 60-90 seconds rest, and add a little weight or reps each week. Focus on good form first."
+    },
+    {
+      "tag": "chest_workout",
+      "patterns": [
+        "chest workout",
+        "exercises for chest",
+        "how to build a bigger chest",
+        "best chest exercises",
+        "chest day routine",
+        "how to grow chest muscles",
+        "pecs workout",
+        "bench press alternatives for chest",
+        "chest exercises at the gym",
+        "upper chest exercises"
+      ],
+      "response": "Chest exercises: push-ups, bench press, incline dumbbell press, dumbbell flyes and cable crossovers. Do 3-4 sets of 8-12 reps, twice a week, with controlled movement and a full range of motion."
+    },
+    {
+      "tag": "back_workout",
+      "patterns": [
+        "back workout",
+        "exercises for back",
+        "how to build a wider back",
+        "best back exercises",
+        "back day routine",
+        "how to grow back muscles",
+        "lats workout",
+        "pull day exercises",
+        "exercises for lower back strength",
+        "pull ups for back"
+      ],
+      "response": "Back exercises: pull-ups or lat pulldowns, bent-over rows, seated cable rows, deadlifts (once your form is good) and back extensions. Do 3-4 sets of 8-12 reps and keep your spine neutral."
+    },
+    {
+      "tag": "leg_workout",
+      "patterns": [
+        "leg workout",
+        "exercises for legs",
+        "how to build bigger legs",
+        "best leg exercises",
+        "leg day routine",
+        "quad and hamstring workout",
+        "squat workout for legs",
+        "glute exercises",
+        "how to strengthen legs",
+        "lower body workout"
+      ],
+      "response": "Leg exercises: squats, lunges, leg press, Romanian deadlifts, leg curls, calf raises and glute bridges. Do 3-4 sets of 8-15 reps, 1-2 times a week. Warm up well and keep your knees tracking over your toes."
+    },
+    {
+      "tag": "arm_workout",
+      "patterns": [
+        "arm workout",
+        "exercises for biceps",
+        "how to build bigger arms",
+        "triceps exercises",
+        "best arm exercises",
+        "bicep curls routine",
+        "arm day workout",
+        "how to get stronger arms",
+        "exercises for biceps and triceps",
+        "forearm and arm exercises"
+      ],
+      "response": "Biceps: dumbbell curls, hammer curls, barbell curls. Triceps: dips, overhead dumbbell extension, triceps pushdowns, close-grip push-ups. Do 3 sets of 10-12 reps each, twice a week."
+    },
+    {
+      "tag": "shoulder_workout",
+      "patterns": [
+        "shoulder workout",
+        "exercises for shoulders",
+        "how to build bigger shoulders",
+        "best shoulder exercises",
+        "shoulder day routine",
+        "delt exercises",
+        "lateral raises how to",
+        "overhead press workout",
+        "how to get broad shoulders",
+        "rear delt exercises"
+      ],
+      "response": "Shoulder exercises: overhead dumbbell or barbell press, lateral raises, front raises, rear delt flyes and face pulls. Do 3 sets of 10-15 reps. Use light weights on lateral raises and avoid swinging."
+    },
+    {
+      "tag": "abs_workout",
+      "patterns": [
+        "abs workout",
+        "exercises for abs",
+        "how to get six pack abs",
+        "best core exercises",
+        "core workout routine",
+        "ab exercises at home",
+        "how to get a flat stomach",
+        "plank variations",
+        "exercises for stomach",
+        "how to strengthen my core"
+      ],
+      "response": "Core exercises: plank, dead bug, bicycle crunches, leg raises, mountain climbers and Russian twists. Do 3 sets of 30-60 seconds (planks) or 12-20 reps. Visible abs also depend on low body fat, so diet matters too."
+    },
+    {
+      "tag": "cardio",
+      "patterns": [
+        "best cardio exercises",
+        "how much cardio should i do",
+        "cardio workout for beginners",
+        "is running good for weight loss",
+        "cardio for fat loss",
+        "how to improve stamina",
+        "how to build endurance",
+        "walking or running which is better",
+        "cycling for fitness",
+        "how long should i do cardio"
+      ],
+      "response": "Good cardio options: brisk walking, jogging, cycling, swimming, skipping rope or the stair climber. Aim for about 150 minutes of moderate cardio per week, for example 30 minutes on 5 days. Start easy and increase gradually."
+    },
+    {
+      "tag": "hiit",
+      "patterns": [
+        "what is hiit",
+        "hiit workout",
+        "high intensity interval training",
+        "interval training routine",
+        "is hiit good for fat loss",
+        "tabata workout",
+        "how to do hiit at home",
+        "hiit for beginners",
+        "sprint interval workout",
+        "how often should i do hiit"
+      ],
+      "response": "HIIT alternates hard effort with rest, for example 30 seconds of sprinting, burpees or jumping jacks followed by 30 seconds of rest, for 10-20 minutes. Do it 1-3 times a week, not on consecutive days, and warm up first. Beginners should use longer rests."
+    },
+    {
+      "tag": "home_workout",
+      "patterns": [
+        "home workout without equipment",
+        "exercises i can do at home",
+        "bodyweight workout",
+        "no gym workout plan",
+        "home exercise routine",
+        "workout at home for beginners",
+        "full body workout at home",
+        "how to exercise without gym",
+        "quick home workout",
+        "workout with no equipment"
+      ],
+      "response": "No-equipment home workout: 3 rounds of 15 squats, 10 push-ups, 12 lunges per leg, a 30-second plank, 20 glute bridges and 20 jumping jacks. Rest 60 seconds between rounds. Use a backpack with books for extra resistance."
+    },
+    {
+      "tag": "warmup_stretching",
+      "patterns": [
+        "how to warm up before workout",
+        "warm up exercises",
+        "stretching routine",
+        "should i stretch before exercise",
+        "cool down after workout",
+        "dynamic stretching exercises",
+        "how to improve flexibility",
+        "stretches after gym",
+        "pre workout warm up routine",
+        "how long should i warm up",
+        "what stretches should i do after training",
+        "stretching after exercise",
+        "best stretches for muscles",
+        "how to stretch properly"
+      ],
+      "response": "Warm up for 5-10 minutes with light cardio and dynamic moves such as arm circles, leg swings and bodyweight squats. After training, hold static stretches for 20-30 seconds for the muscles you worked. Avoid long static stretching before heavy lifting."
+    },
+    {
+      "tag": "rest_recovery",
+      "patterns": [
+        "how many rest days do i need",
+        "muscle soreness after workout",
+        "how to recover faster",
+        "why are my muscles sore",
+        "rest day tips",
+        "how long to rest between workouts",
+        "what to do on rest days",
+        "how to reduce muscle pain after gym",
+        "muscle recovery tips",
+        "is it okay to workout every day"
+      ],
+      "response": "Muscles grow during recovery. Rest each muscle group about 48 hours before training it again, take 1-2 full rest days a week, eat enough protein and sleep well. Light walking and stretching help with soreness (DOMS), which usually fades in 2-3 days."
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "how much sleep do i need",
+        "does sleep affect muscle growth",
+        "sleep and fitness",
+        "how many hours should i sleep",
+        "tips for better sleep",
+        "why is sleep important for workouts",
+        "i am not sleeping well how does it affect gym",
+        "sleep for recovery",
+        "does lack of sleep affect weight loss",
+        "best sleep schedule for athletes"
+      ],
+      "response": "Aim for 7-9 hours of sleep per night. Poor sleep hurts recovery and strength and increases hunger. Keep fixed sleep and wake times, and avoid screens and caffeine late in the evening."
+    },
+    {
+      "tag": "workout_frequency",
+      "patterns": [
+        "how many days a week should i workout",
+        "how often should i go to the gym",
+        "workout frequency for beginners",
+        "how many times a week to train",
+        "weekly workout split",
+        "how many days should i exercise",
+        "push pull legs split",
+        "how often to train each muscle",
+        "best workout schedule",
+        "should i train 5 days a week"
+      ],
+      "response": "Beginners: 3 days per week, full body. Intermediate: 4-5 days using an upper/lower or push/pull/legs split. Always include at least 1-2 rest days. Consistency matters more than frequency."
+    },
+    {
+      "tag": "belly_fat",
+      "patterns": [
+        "how to lose belly fat",
+        "how to reduce belly fat",
+        "how to burn stomach fat",
+        "best exercise for belly fat",
+        "how to get rid of belly fat fast",
+        "lose tummy fat",
+        "reduce fat around waist",
+        "can i spot reduce belly fat",
+        "how to shrink my stomach",
+        "how to lose love handles"
+      ],
+      "response": "You cannot spot-reduce belly fat. Lose overall body fat with a calorie deficit, strength training, daily walking, enough protein, good sleep, and less sugar and alcohol. Crunches alone will not remove belly fat."
+    },
+    {
+      "tag": "supplements",
+      "patterns": [
+        "do i need supplements",
+        "are protein powders good",
+        "should i take whey protein",
+        "best supplements for muscle gain",
+        "is whey protein safe",
+        "which supplements are worth taking",
+        "are supplements necessary",
+        "pre workout supplement advice",
+        "protein shake or real food",
+        "what supplements should a beginner take"
+      ],
+      "response": "Supplements are optional and food comes first. Well-studied options are whey or plant protein (for convenience), creatine monohydrate, and vitamin D if you are deficient. Choose trusted brands and consult a doctor before starting any supplement."
+    },
+    {
+      "tag": "creatine",
+      "patterns": [
+        "what is creatine",
+        "is creatine safe",
+        "how to take creatine",
+        "creatine dosage",
+        "should i take creatine",
+        "does creatine work",
+        "creatine side effects",
+        "when to take creatine",
+        "creatine for beginners",
+        "creatine loading phase"
+      ],
+      "response": "Creatine monohydrate is one of the most researched supplements. The usual dose is 3-5 g per day, at any time, with water. It can improve strength and muscle gain and is generally safe for healthy adults, but check with a doctor if you have kidney problems."
+    },
+    {
+      "tag": "calories",
+      "patterns": [
+        "how many calories should i eat",
+        "daily calorie requirement",
+        "how to calculate my calories",
+        "what is maintenance calories",
+        "calorie deficit meaning",
+        "how many calories to lose weight",
+        "how many calories to gain muscle",
+        "what is tdee",
+        "calorie intake per day",
+        "how to count calories"
+      ],
+      "response": "Rough estimate: maintenance calories are about body weight in kg multiplied by 30-33 for moderately active people. Subtract 300-500 for fat loss or add 250-500 for muscle gain. Track your weight for 2-3 weeks and adjust. An online TDEE calculator gives a better estimate."
+    },
+    {
+      "tag": "vegetarian_protein",
+      "patterns": [
+        "vegetarian protein sources",
+        "how to get protein as a vegetarian",
+        "high protein vegetarian foods",
+        "vegan protein options",
+        "protein without meat",
+        "plant based protein foods",
+        "veg sources of protein",
+        "best protein foods for vegetarians",
+        "protein rich indian vegetarian food",
+        "i do not eat meat where do i get protein"
+      ],
+      "response": "Vegetarian protein sources: dal, chickpeas, rajma, soy chunks, tofu, paneer, curd, milk, sprouts, quinoa, peanuts and seeds. Combine pulses with grains (like dal and rice) for a full amino acid profile. Eggs are also an option for ovo-vegetarians."
+    },
+    {
+      "tag": "plateau",
+      "patterns": [
+        "i am not seeing results",
+        "how to break a plateau",
+        "my weight is stuck",
+        "no progress in the gym",
+        "weight loss plateau",
+        "strength has stopped increasing",
+        "why am i not gaining muscle",
+        "progress has stalled",
+        "what is progressive overload",
+        "why am i not losing weight"
+      ],
+      "response": "To break a plateau: increase weights or reps gradually (progressive overload), check your calories and protein, sleep 7-9 hours, change exercises every 6-8 weeks, and take a lighter deload week if you feel worn out. Results usually take 4-8 weeks to show."
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "i feel lazy to workout",
+        "how to stay motivated",
+        "give me motivation",
+        "i have no energy to exercise",
+        "how to be consistent with workouts",
+        "how to build a workout habit",
+        "i keep skipping the gym",
+        "motivate me",
+        "how do i stop quitting my fitness routine",
+        "tips for staying disciplined"
+      ],
+      "response": "Start small and be consistent. Set a clear goal, schedule workouts like appointments, track your progress, find a workout partner and celebrate small wins. Discipline beats motivation, and even a 10-minute workout counts."
+    },
+    {
+      "tag": "injury_pain",
+      "patterns": [
+        "my knee hurts when i squat",
+        "i have back pain after exercise",
+        "i think i injured myself",
+        "sharp pain while lifting",
+        "shoulder pain during workout",
+        "how to treat a muscle strain",
+        "can i workout with an injury",
+        "my joints hurt after gym",
+        "i pulled a muscle",
+        "i feel dizzy while exercising"
+      ],
+      "response": "Sharp pain, swelling, dizziness, chest pain, or pain that does not go away is a signal to stop and see a doctor or physiotherapist. I cannot diagnose injuries. For mild muscle soreness, rest, gentle movement and sleep usually help."
+    },
+    {
+      "tag": "yoga",
+      "patterns": [
+        "yoga for beginners",
+        "benefits of yoga",
+        "best yoga poses",
+        "yoga for flexibility",
+        "yoga for weight loss",
+        "surya namaskar",
+        "how to start yoga",
+        "yoga routine in the morning",
+        "yoga for back pain",
+        "is yoga good exercise"
+      ],
+      "response": "Yoga improves flexibility, balance and recovery. Beginner poses: Surya Namaskar (sun salutation), Tadasana, Downward Dog, Child's Pose, Cobra and Bridge. Practise 15-30 minutes, 3-5 days a week, and breathe steadily."
+    },
+    {
+      "tag": "weight_gain_plan",
+      "patterns": [
+        "give me a diet plan to gain weight",
+        "give me 10 day plan to gain 2 kgs",
+        "how to gain 2 kg in 10 days",
+        "how to gain 5 kg in a month",
+        "weight gain meal plan for a week",
+        "plan to gain weight in 30 days",
+        "how fast can i gain weight",
+        "gain 3 kgs in two weeks",
+        "weekly diet plan to gain weight",
+        "how to gain kilos quickly",
+        "7 day weight gain plan",
+        "diet chart for weight gain",
+        "how to gain 10 kg in 3 months",
+        "daily meal plan to gain weight"
+      ],
+      "response": "A realistic, healthy gain is about 0.25-0.5 kg per week. A good plan: eat 300-500 kcal above maintenance every day.\nSample day: Breakfast - 3-egg omelette or paneer paratha plus a banana milkshake. Mid-morning - peanut butter sandwich or curd with fruit. Lunch - 3 rotis or a large bowl of rice, dal, sabzi, curd. Evening - roasted chana, nuts and milk. Dinner - rice or roti with chicken, paneer or soy, and vegetables. Bedtime - a glass of milk.\nAdd 3 strength sessions a week, sleep 7-9 hours and weigh yourself once a week."
+    },
+    {
+      "tag": "weight_loss_plan",
+      "patterns": [
+        "give me a plan to lose 2 kg in 10 days",
+        "how to lose 5 kg in a month",
+        "7 day weight loss plan",
+        "weekly diet plan to lose weight",
+        "how to lose 10 kg in 2 months",
+        "lose weight in 30 days plan",
+        "how fast can i lose weight",
+        "diet chart for weight loss",
+        "lose 3 kgs in two weeks",
+        "how to lose kilos quickly",
+        "give me 10 day plan to lose 3 kgs",
+        "daily meal plan to lose weight",
+        "how to lose 4 kg in 15 days",
+        "crash diet to lose weight fast"
+      ],
+      "response": "A safe pace is about 0.5-1 kg per week. Faster loss in the first days is mostly water, and crash diets are not recommended. A good plan: eat 300-500 kcal below maintenance.\nSample day: Breakfast - vegetable omelette or moong dal chilla. Lunch - 2 rotis, dal, sabzi, salad and curd. Snack - roasted chana or a fruit. Dinner - grilled chicken, paneer or tofu with vegetables or soup.\nAlso walk 8,000-10,000 steps daily, do 3 strength sessions a week, drink 2-3 litres of water and sleep 7-9 hours."
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "what is the weather today",
+        "tell me a joke",
+        "who won the cricket match",
+        "what is the capital of france",
+        "play some music",
+        "what is the stock price",
+        "who is the prime minister",
+        "what time is it",
+        "how to write python code",
+        "tell me the latest news",
+        "recommend a movie",
+        "what is the price of bitcoin",
+        "translate this sentence",
+        "solve this math problem",
+        "book a flight ticket",
+        "how to fix my laptop",
+        "tell me a story",
+        "what is the meaning of life",
+        "who is the richest man",
+        "what is the temperature outside",
+        "who is the president of india",
+        "where is the nearest mall",
+        "when is the next holiday",
+        "how do i make a website",
+        "what is the score of the match",
+        "how do i learn english",
+        "what is the population of china",
+        "how to cook biryani for guests",
+        "who invented the telephone",
+        "what is today's date",
+        "open youtube for me",
+        "how do i reset my password",
+        "tell me about politics",
+        "what is the best phone to buy",
+        "who is the best football player",
+        "how do i invest money"
+      ],
+      "response": "Sorry, I can only help with fitness topics like workouts, meals, diet, protein, hydration and recovery. Please ask me something about those."
+    }
+  ]
+}

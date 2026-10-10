@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FitBot – Voice Fitness Assistant</title>
+  <meta name="theme-color" content="#060806" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside class="side">
+      <div class="brand">
+        <svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#22e06b"/><path d="M8 12v8M11.5 9.5v13M20.5 9.5v13M24 12v8M11.5 16h9" stroke="#050805" stroke-width="2.4" stroke-linecap="round"/></svg>
+        <div>
+          <h1>FitBot</h1>
+          <p>Ask about workouts, meals and diet using your voice.</p>
+        </div>
+      </div>
+
+      <section class="stage">
+        <div class="mic-wrap">
+          <button id="micBtn" class="mic" aria-label="Start listening">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11.5a7 7 0 0 0 14 0M12 18.5V22"/></svg>
+          </button>
+          <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+        <p id="status" class="status" role="status" aria-live="polite">Loading the model…</p>
+        <div class="options">
+          <label>Language
+            <select id="lang">
+              <option value="en-IN">English (India)</option>
+              <option value="en-US">English (US)</option>
+              <option value="en-GB">English (UK)</option>
+            </select>
+          </label>
+          <label class="check"><input type="checkbox" id="speak" checked /> Read answers aloud</label>
+        </div>
+      </section>
+
+      <section class="suggest">
+        <h2>Try asking</h2>
+        <div class="chips" id="chips"></div>
+      </section>
+
+      <details class="history">
+        <summary>Conversation history</summary>
+        <div id="history"></div>
+      </details>
+
+      <footer>General fitness information only – not medical advice.</footer>
+    </aside>
+
+    <main class="chat">
+      <article class="card">
+        <h2>Recognized speech</h2>
+        <div id="heard" class="box empty">Your words appear here as you speak.</div>
+      </article>
+
+      <article class="card answer">
+        <h2>Chatbot response</h2>
+        <div id="reply" class="box reply empty">FitBot's answer appears here.</div>
+        <div class="conf">
+          <div class="bar"><span id="confBar"></span></div>
+          <div id="meta" class="meta"></div>
+        </div>
+      </article>
+
+      <form id="textForm" class="textform">
+        <input id="textInput" type="text" placeholder="Or type a question…" autocomplete="off" aria-label="Type a question" />
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

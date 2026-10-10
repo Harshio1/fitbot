@@ -1,0 +1,346 @@
+[
+ [
+  "hey how are you",
+  "greeting"
+ ],
+ [
+  "hello coach",
+  "greeting"
+ ],
+ [
+  "okay bye for now",
+  "goodbye"
+ ],
+ [
+  "see you tomorrow",
+  "goodbye"
+ ],
+ [
+  "thanks that was useful",
+  "thanks"
+ ],
+ [
+  "thank you coach",
+  "thanks"
+ ],
+ [
+  "what can you help me with",
+  "about_bot"
+ ],
+ [
+  "tell me what you can do",
+  "about_bot"
+ ],
+ [
+  "what should i eat to lose weight",
+  "weight_loss_diet"
+ ],
+ [
+  "i want to reduce my weight what diet should i follow",
+  "weight_loss_diet"
+ ],
+ [
+  "give me a diet plan for fat loss",
+  "weight_loss_diet"
+ ],
+ [
+  "how do i build muscle fast",
+  "muscle_gain_diet"
+ ],
+ [
+  "what should my diet be for muscle growth",
+  "muscle_gain_diet"
+ ],
+ [
+  "how much protein should i take daily",
+  "protein_intake"
+ ],
+ [
+  "what is my daily protein requirement",
+  "protein_intake"
+ ],
+ [
+  "what can i have for breakfast",
+  "breakfast"
+ ],
+ [
+  "suggest a healthy breakfast",
+  "breakfast"
+ ],
+ [
+  "what should i eat for lunch",
+  "lunch_dinner"
+ ],
+ [
+  "give me healthy dinner options",
+  "lunch_dinner"
+ ],
+ [
+  "suggest some healthy snacks",
+  "snacks"
+ ],
+ [
+  "what snacks can i eat when i am dieting",
+  "snacks"
+ ],
+ [
+  "what should i eat before going to the gym",
+  "pre_workout_meal"
+ ],
+ [
+  "what is a good pre workout meal",
+  "pre_workout_meal"
+ ],
+ [
+  "what should i eat after my workout",
+  "post_workout_meal"
+ ],
+ [
+  "best post workout food",
+  "post_workout_meal"
+ ],
+ [
+  "how much water should i drink in a day",
+  "hydration"
+ ],
+ [
+  "how do i stay hydrated while working out",
+  "hydration"
+ ],
+ [
+  "give me a workout plan for a beginner",
+  "beginner_workout"
+ ],
+ [
+  "how do i start going to the gym",
+  "beginner_workout"
+ ],
+ [
+  "suggest chest exercises",
+  "chest_workout"
+ ],
+ [
+  "how can i build my chest",
+  "chest_workout"
+ ],
+ [
+  "what are the best back exercises",
+  "back_workout"
+ ],
+ [
+  "how to build a bigger back",
+  "back_workout"
+ ],
+ [
+  "suggest leg exercises",
+  "leg_workout"
+ ],
+ [
+  "how do i build stronger legs",
+  "leg_workout"
+ ],
+ [
+  "what are good biceps exercises",
+  "arm_workout"
+ ],
+ [
+  "how to grow my arms",
+  "arm_workout"
+ ],
+ [
+  "suggest shoulder exercises",
+  "shoulder_workout"
+ ],
+ [
+  "how do i get bigger shoulders",
+  "shoulder_workout"
+ ],
+ [
+  "how do i get abs",
+  "abs_workout"
+ ],
+ [
+  "suggest some core exercises",
+  "abs_workout"
+ ],
+ [
+  "what cardio should i do",
+  "cardio"
+ ],
+ [
+  "how do i improve my stamina",
+  "cardio"
+ ],
+ [
+  "explain hiit workout",
+  "hiit"
+ ],
+ [
+  "give me a hiit routine",
+  "hiit"
+ ],
+ [
+  "suggest exercises i can do at home",
+  "home_workout"
+ ],
+ [
+  "give me a workout with no equipment",
+  "home_workout"
+ ],
+ [
+  "how should i warm up before exercise",
+  "warmup_stretching"
+ ],
+ [
+  "how many rest days should i take",
+  "rest_recovery"
+ ],
+ [
+  "how do i recover from muscle soreness",
+  "rest_recovery"
+ ],
+ [
+  "how many hours of sleep do i need",
+  "sleep"
+ ],
+ [
+  "does sleep help muscle growth",
+  "sleep"
+ ],
+ [
+  "how many days a week should i train",
+  "workout_frequency"
+ ],
+ [
+  "how often should i go to the gym",
+  "workout_frequency"
+ ],
+ [
+  "how do i lose belly fat",
+  "belly_fat"
+ ],
+ [
+  "how to get rid of stomach fat",
+  "belly_fat"
+ ],
+ [
+  "should i take protein powder",
+  "supplements"
+ ],
+ [
+  "which supplements are good for muscle gain",
+  "supplements"
+ ],
+ [
+  "is creatine good for me",
+  "creatine"
+ ],
+ [
+  "how much creatine should i take",
+  "creatine"
+ ],
+ [
+  "how many calories do i need per day",
+  "calories"
+ ],
+ [
+  "how do i calculate maintenance calories",
+  "calories"
+ ],
+ [
+  "what are good vegetarian protein sources",
+  "vegetarian_protein"
+ ],
+ [
+  "how do vegetarians get enough protein",
+  "vegetarian_protein"
+ ],
+ [
+  "my progress has stopped what should i do",
+  "plateau"
+ ],
+ [
+  "why is my weight not dropping",
+  "plateau"
+ ],
+ [
+  "i am feeling lazy how do i stay motivated",
+  "motivation"
+ ],
+ [
+  "how do i stay consistent with exercise",
+  "motivation"
+ ],
+ [
+  "my knee hurts after squats",
+  "injury_pain"
+ ],
+ [
+  "i have pain in my shoulder while lifting",
+  "injury_pain"
+ ],
+ [
+  "is yoga good for beginners",
+  "yoga"
+ ],
+ [
+  "suggest some yoga poses",
+  "yoga"
+ ],
+ [
+  "who is the president of america",
+  "fallback"
+ ],
+ [
+  "tell me a funny joke",
+  "fallback"
+ ],
+ [
+  "i want to put on some weight what do i eat",
+  "muscle_gain_diet"
+ ],
+ [
+  "which stretches are good after a workout",
+  "warmup_stretching"
+ ],
+ [
+  "what is the weather like in chennai",
+  "fallback"
+ ],
+ [
+  "who won the world cup",
+  "fallback"
+ ],
+ [
+  "how do i apply for a passport",
+  "fallback"
+ ],
+ [
+  "what is the speed of light",
+  "fallback"
+ ],
+ [
+  "give me a 15 day plan to gain 3 kgs",
+  "weight_gain_plan"
+ ],
+ [
+  "how can i gain 4 kg in a month",
+  "weight_gain_plan"
+ ],
+ [
+  "suggest a weekly meal plan for gaining weight",
+  "weight_gain_plan"
+ ],
+ [
+  "give me a 10 day plan to lose 2 kgs",
+  "weight_loss_plan"
+ ],
+ [
+  "how can i lose 6 kg in 2 months",
+  "weight_loss_plan"
+ ],
+ [
+  "suggest a one week diet chart to lose weight",
+  "weight_loss_plan"
+ ]
+]
